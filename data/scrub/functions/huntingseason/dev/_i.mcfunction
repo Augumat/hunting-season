@@ -6,7 +6,10 @@
 #>
 
 #>
-# stub
+# Initializes the engine to its beginning state by creating scoreboard
+#  objectives and setting gamerules.  This should automatically be called by
+#  /volunteer when necessary. (the conditional is a pre-emptive choice to
+#  allow for future expansion)
 #>
 
 # set gamerules

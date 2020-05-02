@@ -11,4 +11,17 @@
 #  reset to clean up after the game.
 #>
 
-# stub
+# play a sound and report the win in chat
+#todo
+
+# spawn fireworks on the winner
+#todo
+
+# report hunter stats from the game
+#todo
+
+# give short instructions on starting a new game
+#todo
+
+# conclude by resetting the engine
+function scrub:huntingseason/dev/_r

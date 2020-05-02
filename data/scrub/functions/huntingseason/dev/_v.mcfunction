@@ -6,7 +6,9 @@
 #>
 
 #>
-# stub
+# This function volunteers the caller as the runner and every other player as
+#  a hunter, then notifies them.  After this function has been called, the game
+#  can begin in earnest.
 #>
 
 # mark hunters with 0 and the hunted with 1
