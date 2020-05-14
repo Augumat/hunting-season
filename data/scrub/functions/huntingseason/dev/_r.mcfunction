@@ -28,3 +28,6 @@ scoreboard objectives remove huntedWon
 # remove the "initialized" mark
 scoreboard objectives remove gamestate
 scoreboard objectives remove init
+
+# remove the position updaters
+fill 0 255 0 0 250 0 minecraft:air
