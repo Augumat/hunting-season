@@ -21,4 +21,3 @@ title @a[scores={hunted=1}] title {"text":"RUN!","color":"aqua"}
 # begin the chase by clearing effects on each player, displaying the sidebar, and resuming time
 effect clear @a
 gamerule doDaylightCycle true
-scoreboard objectives setdisplay sidebar Target

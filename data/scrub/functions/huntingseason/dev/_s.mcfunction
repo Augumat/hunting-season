@@ -32,10 +32,12 @@ spreadplayers 0 0 8 32 false @a
 # set up the updater blocks
 setblock 0 255 0 minecraft:repeating_command_block[conditional=false,facing=down]{auto:1,Command:"execute store result score @p[scores={hunted=1}] posX run data get entity @p[scores={hunted=1}] Pos[0]"}
 setblock 0 254 0 minecraft:chain_command_block[conditional=false,facing=down]{auto:1,Command:"execute store result score @p[scores={hunted=1}] posZ run data get entity @p[scores={hunted=1}] Pos[2]"}
-setblock 0 253 0 minecraft:chain_command_block[conditional=false,facing=down]{auto:1,Command:"scoreboard players operation PosX Target = @p[scores={hunted=1}] posX"}
-setblock 0 252 0 minecraft:chain_command_block[conditional=false,facing=down]{auto:1,Command:"scoreboard players operation PosZ Target = @p[scores={hunted=1}] posZ"}
-setblock 0 251 0 minecraft:chain_command_block[conditional=false,facing=down]{auto:1,Command:"execute if score @p[scores={hunted=1}] huntedWon matches 1 run function scrub:huntingseason/dev/_w"}
-setblock 0 250 0 minecraft:chain_command_block[conditional=false,facing=down]{auto:1,Command:"execute if score @p[scores={hunted=1}] huntedLost matches 1 run function scrub:huntingseason/dev/_l"}
+setblock 0 253 0 minecraft:chain_command_block[conditional=false,facing=down]{auto:1,Command:"execute store result score @p[scores={hunted=1}] Dim run data get entity @p[scores={hunted=1}] Dimension"}
+setblock 0 252 0 minecraft:chain_command_block[conditional=false,facing=down]{auto:1,Command:"execute if score @p[scores={hunted=1}] Dim matches 0 run title @a[scores={hunted=0}] actionbar [\"\",{\"score\":{\"name\":\"@p[scores={hunted=1}]\",\"objective\":\"posX\"}},{\"text\":\", \"},{\"score\":{\"name\":\"@p[scores={hunted=1}]\",\"objective\":\"posZ\"}}]"}
+setblock 0 251 0 minecraft:chain_command_block[conditional=false,facing=down]{auto:1,Command:"execute if score @p[scores={hunted=1}] Dim matches -1 run title @a[scores={hunted=0}] actionbar [\"\",{\"text\":\"oooo\",\"obfuscated\":true,\"color\":\"dark_red\"},{\"text\":\", \"},{\"text\":\"oooo\",\"obfuscated\":true,\"color\":\"dark_red\"}]"}
+setblock 0 250 0 minecraft:chain_command_block[conditional=false,facing=down]{auto:1,Command:"execute if score @p[scores={hunted=1}] Dim matches 1 run title @a[scores={hunted=0}] actionbar [\"\",{\"text\":\"oooo\",\"obfuscated\":true,\"color\":\"dark_purple\"},{\"text\":\", \"},{\"text\":\"oooo\",\"obfuscated\":true,\"color\":\"dark_purple\"}]"}
+setblock 0 249 0 minecraft:chain_command_block[conditional=false,facing=down]{auto:1,Command:"execute if score @p[scores={hunted=1}] huntedWon matches 1 run function scrub:huntingseason/dev/_w"}
+setblock 0 248 0 minecraft:chain_command_block[conditional=false,facing=down]{auto:1,Command:"execute if score @p[scores={hunted=1}] huntedLost matches 1 run function scrub:huntingseason/dev/_l"}
 
 # start the countdown chain
 function scrub:huntingseason/dev/_5

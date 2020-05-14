@@ -7,27 +7,18 @@ A Minecraft data pack that implements a fully functioning hunter(s) VS speedrunn
 1. Download the latest version of the pack `hunting-season-1-0.zip` from the RELEASES tab on this page.
 2. Create a new world for the match (the world folder needs to exist).
 3. Place the zip file in the `datapacks` folder inside your world file.
-4. Enable the datapack when you start the world, then follow the usage steps to get started!
-
-**TODO verify #4 so I don't look like an idiot**
+4. Fire up the game/server and begin!
 
 ## Usage
 
-**TODO copy over the help explanation in plaintext**
+Just follow these two steps to start the match!
 
-You can also run the command `scrub:huntingseason/help` ingame for the same explanation given above, including nifty hover and click events for the listed commands that autofill them into your chat bar!
+1. Run `/function scrub:huntingseason/volunteer` if you are the player who will be hunted.
+2. Run `/function scrub:huntingseason/start` to enable tracking and start the countdown to begin the game!
+
+A user with operator permissions should run these commands, but if for some reason you don't want to or can't give operator permissions to the person who wishes to volunteer as the runner, use the command `/execute as <name_here> run /function scrub:huntingseason/volunteer` and replace `<name_here>` with the person you want. 
+
+You can also stop the session prematurely by running `/function scrub:huntingseason/reset` to revert to the game's state before the minigame.
+
+Run the command `scrub:huntingseason/help` ingame for the same explanation given above, including nifty hover and click events for the listed commands that autofill them into your chat bar!
 (The teal commands and green `[?]` boxes are the bits that interact with the mouse)
-
-**TODO test this out**
-
-A user with operator permissions should run the commands, but if for some reason you don't want to or can't give operator permissions to the person who wishes to volunteer as the runner, use the command `/execute as <name_here> run /function scrub:huntingseason/volunteer` and replace `<name_here>` with the person you want. 
-
-## Support me!
-
-If you want to leave a tip for the minigame or support continued development of projects like this, consider supporting me!
-
-I'm also happy to take suggestions, so don't be afraid to shoot me an email or add feature requests in the ISSUES tab.
-
-Cheers and enjoy the game!
-
-**TODO add dono embeds**
