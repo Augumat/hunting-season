@@ -19,6 +19,8 @@ gamerule commandBlockOutput false
 scoreboard objectives add hunted dummy
 scoreboard objectives add posX dummy
 scoreboard objectives add posZ dummy
+scoreboard objectives add relX dummy
+scoreboard objectives add relZ dummy
 scoreboard objectives add Dim dummy
 scoreboard objectives add Target dummy
 scoreboard objectives add gamestate dummy

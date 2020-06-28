@@ -17,6 +17,8 @@ gamerule commandBlockOutput true
 scoreboard objectives remove hunted
 scoreboard objectives remove posX
 scoreboard objectives remove posZ
+scoreboard objectives remove relX
+scoreboard objectives remove relZ
 scoreboard objectives remove Dim
 scoreboard objectives remove Target
 
@@ -29,4 +31,4 @@ scoreboard objectives remove gamestate
 scoreboard objectives remove init
 
 # remove the position updaters
-fill 0 255 0 0 248 0 minecraft:air
+fill 0 255 0 0 244 0 minecraft:air
