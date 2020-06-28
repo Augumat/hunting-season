@@ -1,6 +1,6 @@
 # It's Hunting Season!
 
-A Minecraft data pack that implements a fully functioning hunter(s) VS speedrunner minigame.
+A Minecraft data pack that implements a fully functioning hunter(s) VS speedrunner minigame. (also known as Manhunt)
 
 ## Installation
 
