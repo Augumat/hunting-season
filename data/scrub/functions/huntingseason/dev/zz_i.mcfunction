@@ -17,8 +17,9 @@ gamerule commandBlockOutput false
 
 # create teams
 team add runner
+team modify runner color aqua
 team add hunter
-ream modify hunter color red
+team modify hunter color red
 
 # create scoreboard objectives
 scoreboard objectives add posX dummy
