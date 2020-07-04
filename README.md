@@ -4,9 +4,10 @@ A Minecraft data pack that implements a fully functioning hunter(s) VS speedrunn
 
 ## Installation
 
-1. Download the latest version of the pack `hunting-season-1-0.zip` from the RELEASES tab on this page.
+1. Download the latest version of the pack `hunting-season-(version).zip` from the RELEASES tab on this page.
 2. Create a new world for the match (the world folder needs to exist).
 3. Place the zip file in the `datapacks` folder inside your world file.
+    1. For steps 2-3 you can also add the datapack through the datapack manager when creating a singleplayer world, and use that world either on LAN or on your server by moving the world file to your server folder.
 4. Fire up the game/server and begin!
 
 ## Usage

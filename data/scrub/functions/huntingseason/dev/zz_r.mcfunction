@@ -13,22 +13,24 @@
 # reset gamerules (to server defaults)
 gamerule commandBlockOutput true
 
+# remove teams
+team remove runner
+team remove hunter
+
 # remove scoreboard objectives
-scoreboard objectives remove hunted
 scoreboard objectives remove posX
 scoreboard objectives remove posZ
 scoreboard objectives remove relX
 scoreboard objectives remove relZ
-scoreboard objectives remove Dim
 scoreboard objectives remove Target
 
 # remove goal objectives
-scoreboard objectives remove huntedLost
-scoreboard objectives remove huntedWon
+scoreboard objectives remove runnerLoses
+scoreboard objectives remove runnerWins
 
 # remove the "initialized" mark
 scoreboard objectives remove gamestate
 scoreboard objectives remove init
 
 # remove the position updaters
-fill 0 255 0 0 244 0 minecraft:air
+fill 0 255 0 0 196 0 minecraft:air

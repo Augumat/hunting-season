@@ -15,19 +15,22 @@
 # set gamerules
 gamerule commandBlockOutput false
 
+# create teams
+team add runner
+team add hunter
+ream modify hunter color red
+
 # create scoreboard objectives
-scoreboard objectives add hunted dummy
 scoreboard objectives add posX dummy
 scoreboard objectives add posZ dummy
 scoreboard objectives add relX dummy
 scoreboard objectives add relZ dummy
-scoreboard objectives add Dim dummy
 scoreboard objectives add Target dummy
 scoreboard objectives add gamestate dummy
 
 # add goal objectives
-scoreboard objectives add huntedLost deathCount
-scoreboard objectives add huntedWon minecraft.killed:minecraft.ender_dragon
+scoreboard objectives add runnerLoses deathCount
+scoreboard objectives add runnerWins minecraft.killed:minecraft.ender_dragon
 
 # mark the game as initialized
 scoreboard objectives add init dummy

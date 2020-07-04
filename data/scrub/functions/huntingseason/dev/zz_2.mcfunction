@@ -8,4 +8,4 @@
 # play a sound, display the number of seconds left, and queue the next step
 execute as @a run playsound minecraft:block.wooden_button.click_off master @p ~ ~ ~ 1 0.8
 title @a title 2
-schedule function scrub:huntingseason/dev/_1 20
+schedule function scrub:huntingseason/dev/zz_1 20

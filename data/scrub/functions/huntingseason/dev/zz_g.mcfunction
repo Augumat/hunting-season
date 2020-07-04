@@ -15,8 +15,8 @@
 
 # play the starting sound and set the titles for the target and hunters
 execute as @a run playsound minecraft:entity.ender_dragon.ambient master @p ~ ~ ~ 1 0.8
-title @a[scores={hunted=0}] title {"text":"HUNT THEM DOWN!","color":"red"}
-title @a[scores={hunted=1}] title {"text":"RUN!","color":"aqua"}
+title @a[team=hunter] title {"text":"HUNT THEM DOWN!","color":"red"}
+title @p[team=runner] title {"text":"RUN!","color":"aqua"}
 
 # begin the chase by clearing effects on each player, displaying the sidebar, and resuming time
 effect clear @a
