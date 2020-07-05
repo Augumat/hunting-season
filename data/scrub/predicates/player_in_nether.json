@@ -3,9 +3,8 @@
   "entity": "this",
   "predicate": {
     "type": "minecraft:player",
-    "team": "hunter",
     "location": {
-      "dimension": "minecraft:the_end"
+      "dimension": "minecraft:the_nether"
     }
   }
 }

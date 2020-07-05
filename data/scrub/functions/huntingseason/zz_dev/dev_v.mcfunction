@@ -19,4 +19,4 @@ team join runner @s
 execute as @p[team=runner] run playsound minecraft:entity.arrow.shoot master @s ~ ~ ~ 1 0.8
 tellraw @p[team=runner] ["",{"text":"You will be hunted by","color":"gray"},{"text":" ","color":"red"},{"selector":"@a[team=hunter]","color":"red"},{"text":" when the round begins","color":"gray"}]
 execute as @a[team=hunter] run playsound minecraft:entity.ghast.warn master @s ~ ~ ~ 1 0.5
-tellraw @a[team=hunter] ["",{"text":"You will be hunting","color":"gray"},{"text":" ","color":"red"},{"selector":"@p[team=runner]","color":"red"},{"text":" when the round begins","color":"gray"}]
+tellraw @a[team=hunter] ["",{"text":"You will be hunting","color":"gray"},{"text":" ","color":"aqua"},{"selector":"@p[team=runner]","color":"red"},{"text":" when the round begins","color":"gray"}]
