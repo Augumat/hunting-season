@@ -1,7 +1,7 @@
 #>
 # !!! IMPORTANT !!!
 # THIS IS A COMPONENT FUNCTION AND SHOULD ONLY BE CALLED INTERNALLY BY OTHER
-#  FUNCTIONS IN THIS DATAPACK!  DO NOT CALL FUNCTIONS IN /dev/ UNLESS YOU KNOW
+#  FUNCTIONS IN THIS DATAPACK!  DO NOT CALL FUNCTIONS IN /zz_dev/ UNLESS YOU KNOW
 #  WHAT THEY DO!
 #>
 
@@ -23,4 +23,4 @@ execute as @p[team=runner] run summon firework_rocket ~ ~ ~ {LifeTime:0,Firework
 tellraw @a ["",{"text":"\nIf you want to start another game in this world, have the new runner "},{"text":"volunteer","color":"aqua","clickEvent":{"action":"suggest_command","value":"/function scrub:huntingseason/volunteer"}},{"text":" again!\n"},{"text":"(for more info, run ","color":"gray"},{"text":"help","color":"aqua","clickEvent":{"action":"suggest_command","value":"/function scrub:huntingseason/help"}},{"text":")","color":"gray"}]
 
 # conclude by resetting the engine
-function scrub:huntingseason/dev/zz_r
+function scrub:huntingseason/zz_dev/dev_r

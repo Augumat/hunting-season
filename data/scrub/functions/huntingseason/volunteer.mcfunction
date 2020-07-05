@@ -11,10 +11,10 @@ scoreboard objectives add __succ dummy
 
 # if the game has not been initialized yet, call setup
 execute store success score __dummy __succ if score gamestate init matches 1
-execute if score __dummy __succ matches 0 run function scrub:huntingseason/dev/zz_i
+execute if score __dummy __succ matches 0 run function scrub:huntingseason/zz_dev/dev_i
 
 # volunteer the caller
-function scrub:huntingseason/dev/zz_v
+function scrub:huntingseason/zz_dev/dev_v
 
 # clean up temporary values
 scoreboard objectives remove __succ

@@ -3,7 +3,7 @@
 #  included commands (not including this one).
 #
 # NOTE - This only explains functions meant to be called by a user, the
-#  functions in /dev/ are excluded because they were written for internal use
+#  functions in /zz_dev/ are excluded because they were written for internal use
 #  only.
 #>
 
